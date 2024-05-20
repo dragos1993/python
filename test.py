@@ -1,3 +1,4 @@
-#Hello21
-#test
-#second-branch
+fruit = 'apple'
+fruit_len = len(fruit)
+print(fruit_len)
+print(fruit.lower())
