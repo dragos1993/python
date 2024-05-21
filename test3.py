@@ -16,5 +16,3 @@ print('Your To-DO List:')
 print('-' * 16)
 for task in to_do_list:
     print(task)
-
-#test
