@@ -1,18 +1,8 @@
 #!/usr/bin/env python3
-#Create a list to hold the to-do tasks
-to_do_list = []
-finished = False
-while not finished:
-    task = input('Enter a task for your to-do list. Press <enter> when done:')
-    if len(task) ==0:
-        finished = True
-    else:
-        to_do_list.append(task)
-        print('Task added.')
 
-#Display the to-do list
-print()
-print('Your To-DO List:')
-print('-' * 16)
-for task in to_do_list:
-    print(task)
+with open("C:\\Users\\EVRINCDIF\\PycharmProjects\\pythonProject\\text.txt", 'w') as the_file:
+    the_file.write('This text will be written to the file.')
+    the_file.write('Here is more text.')
+
+with open('C:\\Users\\EVRINCDIF\\PycharmProjects\\pythonProject\\file4.txt', 'x') as the_file:
+    the_file.write('ok')
